@@ -52,10 +52,10 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
               //   text: '《TypeScript 从零实现 axios》',
               //   link: '/note/typescript-axios/',
               // },
-              {
-                text: '《Git》',
-                link: '/note/git/',
-              },
+              // {
+              //   text: '《Git》',
+              //   link: '/note/git/',
+              // },
               // {
               //   text: 'TypeScript',
               //   link: '/pages/51afd6/',
