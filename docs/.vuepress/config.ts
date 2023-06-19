@@ -182,9 +182,9 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
       // iconfontCssFile: '//at.alicdn.com/t/xxx.css', // 可选，阿里图标库在线css文件地址，对于主题没有的图标可自己添加。阿里图片库：https://www.iconfont.cn/
       icons: [
         {
-          iconClass: 'icon-youjian',
-          title: '发邮件',
-          link: 'mailto:cjchan8837@163.com',
+          iconClass: 'icon-erji',
+          title: '网易云',
+          link: 'https://music.163.com/#/user/home?id=372302017',
         },
         {
           iconClass: 'icon-github',
