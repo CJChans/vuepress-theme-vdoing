@@ -244,6 +244,8 @@ export default {
   components: { NavLink, MainLayout, PostList, UpdateArticle, BloggerBar, CategoriesBar, TagsBar, Pagination },
   created() {
     this.total = this.$sortPosts.length
+    console.log("%c Line:205 🍉 this.homeData", "color:#93c0a4", this.homeData);
+
   },
   beforeMount() {
     this.isMQMobile = window.innerWidth < MOBILE_DESKTOP_BREAKPOINT ? true : false; // vupress在打包时不能在beforeCreate(),created()访问浏览器api（如window）

@@ -152,6 +152,7 @@ export default {
       }
 
       this.sortPosts = posts.slice((currentPage - 1) * perPage, currentPage * perPage)
+      console.log("%c Line:155 🥕 this.sortPosts", "color:#e41a6a", this.sortPosts);
     },
     // getElementToPageTop(el) {
     //   if(el && el.parentElement) {
