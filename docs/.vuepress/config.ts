@@ -18,7 +18,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
   locales: {
     '/': {
       lang: 'zh-CN',
-      title: "CJChan's blog",
+      title: "CJChan",
       description: 'web前端技术博客,专注web前端学习与总结。JavaScript,js,ES6,TypeScript,vue,React,python,css3,html5,Node,git,github等技术文章。',
     }
   },
@@ -45,7 +45,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
             items: [
               // { text: '《JavaScript教程》', link: '/note/javascript/' },
               // { text: '《JavaScript高级程序设计》', link: '/note/js/' },
-              { text: '《ES6 教程》', link: '/note/es6/' },
+              { text: '《ES6 教程》', link: '/pages/f344d070a1031ef7/' },
               // { text: '《Vue》', link: '/note/vue/' },
               // { text: '《React》', link: '/note/react/' },
               // {
@@ -73,7 +73,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         link: '/ui/',
         items: [
           { text: 'HTML', link: '/pages/8309a5b876fc95e3/' },
-          { text: 'CSS', link: '/pages/0a83b083bdf257cb/' },
+          // { text: 'CSS', link: '/pages/0a83b083bdf257cb/' },
         ],
       },
       {
@@ -172,7 +172,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
 
     // 博主信息 (显示在首页侧边栏)
     blogger: {
-      avatar: '/img/log.png',
+      avatar: '/img/avatar.png',
       name: '陈景涛',
       slogan: '前端界的小菜鸡',
     },
