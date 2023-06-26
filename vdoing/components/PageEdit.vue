@@ -1,9 +1,10 @@
 <template>
   <div class="page-edit">
+    {{ this.$site.themeConfig }}
     <div class="edit-link" v-if="editLink">
       <a :href="editLink" target="_blank" rel="noopener noreferrer">{{
         editLinkText
-      }}</a>
+      }}222</a>
       <OutboundLink />
     </div>
 
@@ -52,6 +53,7 @@ export default {
       const showEditLink = isNil(this.$page.frontmatter.editLink)
         ? this.$site.themeConfig.editLinks
         : this.$page.frontmatter.editLink
+        console.log("%c Line:53 🥤 showEditLink", "color:#fca650", showEditLink);
 
       const {
         repo,
@@ -123,7 +125,7 @@ export default {
 
       const base = outboundRE.test(docsRepo)
         ? docsRepo
-        : `https://github.com/${docsRepo}`
+        : `https://github.com/${docsRepo}vuepress-theme-vdoing`
       return (
         base.replace(endingSlashRE, '')
         + `/edit`
